@@ -1,14 +1,15 @@
-package org.example.wicket;
+package org.example.wicket.view;
 
 import org.apache.wicket.protocol.http.WebApplication;
 import org.apache.wicket.spring.injection.annot.SpringComponentInjector;
+import org.example.wicket.view.pages.Home;
 
 public class WicketApplication extends WebApplication {
 
     @Override
-    public Class<HelloWorld> getHomePage() {
+    public Class<Home> getHomePage() {
 
-        return HelloWorld.class; // return default page
+        return Home.class; // return default page
     }
 
     @Override

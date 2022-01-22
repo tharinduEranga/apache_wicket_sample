@@ -1,4 +1,4 @@
-package org.example.wicket;
+package org.example.wicket.service;
 
 import org.springframework.stereotype.Service;
 

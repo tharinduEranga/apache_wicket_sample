@@ -1,4 +1,4 @@
-package org.example.wicket;
+package org.example.wicket.view.pages;
 
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.markup.html.basic.Label;
@@ -6,12 +6,12 @@ import org.apache.wicket.markup.html.link.Link;
 import org.apache.wicket.model.AbstractReadOnlyModel;
 import org.apache.wicket.model.IModel;
 
-public class HomePage extends WebPage {
+public class CounterPage extends WebPage {
     private static final long serialVersionUID = 1L;
 
     private int counter = 0;
 
-    public HomePage() {
+    public CounterPage() {
         IModel<Integer> counterModel = new AbstractReadOnlyModel<Integer>() {
             private static final long serialVersionUID = 1L;
 
